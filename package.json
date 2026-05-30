@@ -1,0 +1,23 @@
+{
+  "name": "ai-inline-fork",
+  "description": "AI Inline Fork - 基于网页端副会话的 AI 追问浏览器插件",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "wxt": "^0.20.26"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}
